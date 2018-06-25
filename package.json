@@ -1,0 +1,23 @@
+{
+  "name": "PPromise",
+  "version": "0.1.0",
+  "description": "promise",
+  "main": "build/main.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": {
+    "name": "blq"
+  },
+  "publishConfig": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "ava": "^0.23.0"
+  },
+  "dependencies": {
+    
+  }
+}

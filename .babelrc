@@ -1,0 +1,41 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions"
+          ]
+        },
+        "modules": false
+      }
+    ],
+    "react"
+  ],
+  "env": {
+    "dev": {
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-async-to-generator",
+        "transform-decorators-legacy",
+        "transform-class-properties",
+        "react-hot-loader/babel",
+        [
+          "import",
+          {
+            "libraryName": "antd"
+          }
+        ]
+      ]
+    },
+    "production": {
+      "plugins": [
+        "transform-object-rest-spread",
+        "transform-async-to-generator",
+        "transform-decorators-legacy",
+        "transform-class-properties"
+      ]
+    }
+  }
+}
